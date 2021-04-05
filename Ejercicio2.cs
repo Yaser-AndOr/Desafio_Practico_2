@@ -8,6 +8,8 @@ namespace Ej2Parcial
         {
             int[] num = new int[10];
             int valor, multiplos3 = 0, multiplos5 = 0, multiplosTotales = 0;
+            Console.WriteLine("Ingrese 10 valores enteros\n" +
+                "El programa dirá cuántos múltiplos de 3 o/y 5 hay.");
             for (int i = 0; i < 10; i++)
             {
                 do

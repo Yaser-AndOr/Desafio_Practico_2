@@ -11,6 +11,11 @@ namespace Desafio2_Ejercicio3
             Double GanTot = 0;
             int[] NumEmp = new int[5], agregados = new int[5];
             int Fe = 0, Sobrantes = 0, SobraCache = 0, Despedidos = 0, reg = 0, may = 0;
+            Console.WriteLine("" +
+                "Cadena de sucursales, ingrese el nombre de cada una\n" +
+                "de las 5 sucursales con sus respectivas ganancias y \n" +
+                "número de empleados, el programa se encargará de precisar\n" +
+                "la funcionalidad correcta de la empresa.");
             for (int c = 0; c < 5; c++)
             {
                 Console.WriteLine($"Ingrese el nombre de la sucursal # {c + 1}");

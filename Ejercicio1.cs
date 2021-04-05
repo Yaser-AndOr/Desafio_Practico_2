@@ -11,6 +11,10 @@ namespace Desafio2_Ejercicio1
             Double[] Prom = new Double[5];
             Double[,] Notas = new Double[5, 5];
             int Fe = 0;
+            Console.WriteLine($"" +
+                $"Sistema de notas, ingresará 5 alumnos con 5 notas de cada uno\n" +
+                $"El programa retornará sus promedios y su estado (aprobado,n" +
+                $"regular o reprobado)");
             for (int n = 0; n < 5; n++)
             {
                 Console.WriteLine($"Ingrese el nombre del alumno {n + 1}");
@@ -44,7 +48,7 @@ namespace Desafio2_Ejercicio1
                 {
                     Prom[r] += Notas[r, sr];
                 }
-                Prom[r] = Math.Truncate((Prom[r]/5)*100)/100;
+                Prom[r] = Math.Truncate((Prom[r] / 5) * 100) / 100;
             }
             for (int a = 0; a < 5; a++)
             {
@@ -73,136 +77,6 @@ namespace Desafio2_Ejercicio1
                 Console.WriteLine(".\n");
             }
             Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-            Console.ReadKey();
-           }
+        }
     }
 }
